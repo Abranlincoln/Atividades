@@ -9,5 +9,5 @@ public class ATV5_2 {
     }
     public static void main(String[] args) {
         N(55);
-}
+    }
 }
