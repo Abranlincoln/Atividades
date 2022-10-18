@@ -76,11 +76,11 @@ public class Ordenação {
         int fim = 5;
         int[] vetor1 = randomic.ints(20, 0, 20).toArray();
         int[] vetor = randomic.ints(20000, 0, 20000).toArray();
-       
-        insertionSort1(vetor1);
-        mergeSort1(vetor1, inicio, fim);
-        
+
         insertionSort(vetor);
         mergeSort(vetor, inicio, fim);
+
+        insertionSort1(vetor1);
+        mergeSort1(vetor1, inicio, fim);
     }
 }
